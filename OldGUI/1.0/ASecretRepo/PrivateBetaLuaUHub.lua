@@ -1,4 +1,3 @@
--- no passa
 local Starlight = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/starlight"))()  
 
 local NebulaIcons = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/nebula-icon-library-loader"))()
@@ -43,12 +42,16 @@ local Paragraph = Groupbox:CreateParagraph({
     Content = "Version: "..version.main..", Executor: "..identifyexecutor()
 }, "sfdofdsoifsdigio")
 
-local Scripts = TabSection:CreateTab({
+local ScriptsTab = TabSection:CreateTab({
     Name = "Scripts",
     Icon = nil,
     Columns = 2,
-}, "SCRIPTS")
+}, "SCRIPTSss")
 
+ local Scripts = ScriptsTab:CreateGroupbox({
+    Name = "Groupbox",
+    Column = 1,
+}, "INDEXSCDSJKFKLSDAF")
 
 local Button = Scripts:CreateButton({
     Name = "Infinite Yield",
@@ -105,11 +108,16 @@ local Button = Scripts:CreateButton({
     end,
 }, "SDFSDTYAFYASDIUFDSYIDFAIYFSDYIFYIYFIASDIFSADYISAFYDIYASDFIYAFSD")
 
-local Hubs = TabSection:CreateTab({
+local HubsTab = TabSection:CreateTab({
     Name = "Hubs",
     Icon = nil,
     Columns = 2, -- This will determine whether the big header text in the tab will show
-})
+}, "BASDKSAJLFSDAKLFJDSKEASZKUL")
+
+local Hubs = HubsTab:CreateGroupbox({
+    Name = "Groupbox",
+    Column = 1,
+}, "INDEX")
 
 local Button = Hubs:CreateButton({
     Name = "Script Hub",
